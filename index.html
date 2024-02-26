@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/popcorn-icon.png">
+    <title>Movie list app</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__text"><span class="movie-list__title">список фильмов</span><span class="movie-list__title">2023</span></div>
+                <h1 class="header__title">Посмотреть</h1>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="movie-app__inner">
+                    <div class="movie-app">
+                        <div class="movie-app__input">
+                            <input type="text" id="js-input" class="input" placeholder="Добавить фильм">
+                            <div id="js-btn-input__send" class="btn">
+                                <img src="img/arrow-right.png" alt="">
+                            </div>
+                        </div>
+                        <div class="movie-app__movie-list">
+                            <ul class="movie-list__items">
+                                <li class="movie-list__item">
+                                    <div class="movie-list__left">
+                                        <div class="btn-checkbox"></div>
+                                        <p class="movie-name">Остров проклятых</p>
+                                    </div>
+                                    <div class="movie-list__right">
+                                        <div class="btn-remove"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.movie-app__movie-list -->
+
+                    </div>
+                    <!-- /.movie-app -->
+                </div>
+                <!-- /.movie-app__inner -->
+            </div>
+            <!-- /.container -->
+        </section>
+    </main>
+
+    <script src="js/index.js"></script>
+    
+</body>
+</html>

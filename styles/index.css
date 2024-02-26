@@ -1,0 +1,169 @@
+.container {
+    width: 930px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header start */
+
+.header {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.header__content {
+    padding: 0 73px;
+}
+
+.header__text {
+    margin-bottom: 30px;
+}
+
+.movie-list__title {
+    padding: 10px 23px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color: #6532F8;
+}
+
+.header__title {
+    font-size: 120px;
+}
+
+/* Header end */
+
+/* main content */
+
+.movie-app__inner {
+    margin-bottom: 80px;
+    border-radius: 20px;
+    background-color: #232323;
+}
+
+.movie-app {
+    padding: 85px;
+}
+
+.movie-app__input {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 430px
+}
+
+.input {
+    padding: 5px;
+    width: 70%;
+    height: 40px;
+    font-size: 30px;
+    border: none;
+    border-bottom: 1px solid #6a6b6b;
+    background: none;
+    color: #fff;
+}
+
+.input::placeholder {
+    padding: 5px;
+    font-size: 30px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: #6532F8;
+}
+
+.btn > img {
+    padding: 15px;
+}
+
+.movie-app__movie-list {
+    overflow: hidden;
+}
+
+.movie-list__items {
+    height: 660px;
+    overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.movie-list__item {
+    margin-bottom: 3px;
+    padding: 25px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 20px;
+    background-color: #3A3939;
+}
+
+.movie-list__left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-checkbox {
+    width: 19px;
+    height: 19px;
+    border-radius: 100px;
+    border: 1px solid #6a6b6b;
+    cursor: pointer;
+}
+
+.movie-list__right {
+    position: relative;
+}
+
+.btn-remove:before,
+.btn-remove:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 23px;
+    height: 3px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #6a6b6b;
+}
+
+.btn-remove:before {
+    transform: rotate(45deg);
+}
+
+.btn-remove:after {
+    transform: rotate(-45deg);
+}
+
+
+
+
