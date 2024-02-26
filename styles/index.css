@@ -80,6 +80,11 @@
     background-color: #6532F8;
 }
 
+.btn_disabled {
+    opacity: .4;
+    pointer-events: none;
+}
+
 .btn > img {
     padding: 15px;
 }
@@ -89,7 +94,7 @@
 }
 
 .movie-list__items {
-    height: 660px;
+    height: 400px;
     overflow-y: scroll;
 }
 
@@ -164,6 +169,17 @@
     transform: rotate(-45deg);
 }
 
+.movie-list__item_inactive {
+    opacity: .5;
+}
+
+.btn-checkbox_inactive {
+    background-color: #6532F8;
+}
+
+.movie-name_inactive {
+    text-decoration: line-through;
+}
 
 
 
